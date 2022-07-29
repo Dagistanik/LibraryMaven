@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd52c7b7-febc-4ae1-83aa-c8f4b3c299d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dd52c7b7-febc-4ae1-83aa-c8f4b3c299d2" name="Changes" comment="added changes to pom.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/library/project/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/library/string/MirrorCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/library/string/PalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/project/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/project/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/string/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/string/Compare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/string/MirrorCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/string/MirrorCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/string/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/string/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/libr/junit-4.13.2.jar",
+    "last_opened_file_path": "E:/study/libraryGradle",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.38822448"
@@ -43,17 +54,63 @@
       <recent name="E:\study\LibraryMaven\src\test\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.library.project.Library" />
+  <component name="RunManager" selected="JUnit.LibraryTest.getBooksTest">
+    <configuration name="LibraryTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryMaven" />
+      <option name="PACKAGE_NAME" value="com.library.project" />
+      <option name="MAIN_CLASS_NAME" value="com.library.project.LibraryTest" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.getBooksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryMaven" />
+      <option name="PACKAGE_NAME" value="com.library.project" />
+      <option name="MAIN_CLASS_NAME" value="com.library.project.LibraryTest" />
+      <option name="METHOD_NAME" value="getBooksTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MirrorCopyTest.mirrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryMaven" />
+      <option name="PACKAGE_NAME" value="com.library.string" />
+      <option name="MAIN_CLASS_NAME" value="com.library.string.MirrorCopyTest" />
+      <option name="METHOD_NAME" value="mirrorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.library in LibraryMaven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryMaven" />
+      <option name="PACKAGE_NAME" value="com.library" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.library.project.* and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryMaven" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="com.library.project.*" />
+        <pattern testClass="com.library.string.*" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Library" />
+        <item itemvalue="JUnit.LibraryTest.getBooksTest" />
+        <item itemvalue="JUnit.LibraryTest.addTest" />
+        <item itemvalue="JUnit.com.library.project.* and 1 more" />
+        <item itemvalue="JUnit.com.library in LibraryMaven" />
+        <item itemvalue="JUnit.MirrorCopyTest.mirrorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -66,8 +123,18 @@
       <option name="presentableId" value="Default" />
       <updated>1659004495061</updated>
       <workItem from="1659004496563" duration="1522000" />
-      <workItem from="1659006737882" duration="453000" />
+      <workItem from="1659006737882" duration="586000" />
+      <workItem from="1659067240967" duration="13000" />
+      <workItem from="1659067266404" duration="15735000" />
     </task>
+    <task id="LOCAL-00001" summary="added changes to pom.xml">
+      <created>1659007221506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659007221506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added changes to pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added changes to pom.xml" />
   </component>
 </project>

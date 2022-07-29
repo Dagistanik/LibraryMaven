@@ -1,7 +1,7 @@
 package com.library.string;
 
 public class Compare {
-    public static void wordCompare(String firstWord, String secondWord){
+    public static boolean worldCompare(String firstWord, String secondWord){
         if (firstWord.length() == secondWord.length()){
             for (int i = 0; i <= firstWord.length()-1 ; i++) {
                 while (firstWord.charAt(i) != secondWord.charAt(i)){
@@ -10,8 +10,9 @@ public class Compare {
             }
         }
         System.out.println("The strings equals");
+        return false;
     }
     public static void main(String[] args) {
-        wordCompare("abcd", "abcd");
+        worldCompare("abcd", "aecd");
     }
 }
